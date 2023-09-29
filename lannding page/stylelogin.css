@@ -1,0 +1,85 @@
+*{
+    font-size: 16px;
+}
+.mainlogin{
+    height: 45vw;
+    /* background-color: red; */
+    object-fit: contain;
+
+}
+.imglogin{
+    height: 48vw;
+    width: 100%;
+}
+.mainlogin {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 28vw;
+    width: 22vw;
+    background: transparent;
+    border: 2px solid rgb(255,255, 255,5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login h2{
+    align-items: center;
+    font-size: large;
+    font-weight: 900;
+}
+main{
+    background: url(gymlogin4.avif) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+footer{
+    padding-top: 20px;
+}
+.icon1{
+    padding-left: 8.2%;
+}
+.remember-forget{
+    padding-right: 3%;
+
+    padding-left: 70px;
+    display: flex;
+}
+.text-color{
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+    width: 4rem;
+    height: 2rem;
+}
+.btn:hover{
+    /* color: red; */
+    width: 4.2rem;
+    height: 2.2rem;
+    font-size: 16px;
+     
+
+}
+.login-register {
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.input-box1{
+    padding-left: 5px;
+}
